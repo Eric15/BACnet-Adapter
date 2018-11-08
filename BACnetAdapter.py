@@ -21,7 +21,7 @@ class BACnetAdapter(BIPSimpleApplication):
         self.mqtt = None
         self.cb_device_client = None
         self.bacnet_devices = None
-	self.bacnet_sensors = None
+        self.bacnet_sensors = None
         self._init_cb()
 
     def _init_cb(self):

@@ -1,4 +1,4 @@
-from clearblade import core, Devices
+from clearblade import ClearBladeCore, Devices
 
 from bacpypes.apdu import WhoIsRequest, IAmRequest, ReadPropertyRequest
 from bacpypes.basetypes import CharacterString
